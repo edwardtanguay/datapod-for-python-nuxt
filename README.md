@@ -1,4 +1,4 @@
-# datapod-for-react-python-json
+# datapod-for-python-nuxt
 
 This is a simple datapod template for a local site that displays data from a JSON file, which is created by a Python script that parses a text file.
 
