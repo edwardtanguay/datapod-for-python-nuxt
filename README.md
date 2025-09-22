@@ -2,6 +2,9 @@
 
 This is a simple datapod template for a local site that displays data from a JSON file, which is created by a Python script that parses a text file.
 
+- repo: https://github.com/edwardtanguay/datapod-python-nuxt
+- live: https://datapod-python-nuxt.vercel.app
+
 ## Compatibility
 
 -   ✔️ tested on Windows
