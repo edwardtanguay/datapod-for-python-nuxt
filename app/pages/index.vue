@@ -1,13 +1,14 @@
 <script setup>
-const response = await $fetch("/api/flashcards");
+// const response = await $fetch("/api/flashcards");
+import flashcards from '../../parseddata/flashcards.json'
 </script>
 
 <template>
 	<p class="mb-4">Welcome to this site.</p>
 	<p class="text-xl mb-3">
-		There are {{ response.data.length }} flashcards:
+		There are {{ flashcards.length }} flashcards:
 	</p>
-	<div v-for="card in response.data"
+	<div v-for="card in flashcards"
 		 :key="card.suuid"
 		 class="flex flex-col gap-1 p-3 mb-3 w-fit bg-slate-500 rounded">
 		<div>
